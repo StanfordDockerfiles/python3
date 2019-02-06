@@ -5,9 +5,9 @@ LABEL maintainer "Nathaniel Watson nathankw@stanford.edu"
 
 #INSTALL Python 3.7.2
 RUN curl -O  https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz \
-	&& tar -zxf Python-3.6.4.tgz \
-	&& rm Python-3.6.4.tgz \
-	&& cd Python-3.6.4 \
+	&& tar -zxf Python-3.7.2.tgz \
+	&& rm Python-3.7.2.tgz \
+	&& cd Python-3.7.2 \
 	&& ./configure \
 	&& make \
 	&& make install 
